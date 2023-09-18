@@ -1,4 +1,4 @@
-##Step 2: SQL Queries(x40🔑)
+#Step 2: SQL Queries(x40🔑)
 
 In this exercise, you will learn the basics of the Structured query language (SQL)
 We're going to create tables, insert, edit, and remove data in a database.
