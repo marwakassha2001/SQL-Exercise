@@ -19,3 +19,14 @@ SET graduation = '2018-9-8'
 WHERE name = 'Layal';
 12.DELETE FROM Students
 WHERE name = 'Layal';
+14.SELECT Employees.Name AS EmployeeName, Companies.Name AS CompanyName, Companies.Date
+FROM Employees
+JOIN Companies ON Employees.ID = Companies.ID;
+15.SELECT Employees.Name
+FROM Employees
+JOIN Companies ON Employees.ID = Companies.ID
+WHERE companies.Date < 2000;
+16.SELECT companies.Name
+FROM companies
+JOIN Employees ON Companies.name = Employees.Company
+WHERE employees.Role ='Graphic Designer';
