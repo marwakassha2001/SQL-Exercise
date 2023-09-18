@@ -30,3 +30,17 @@ WHERE companies.Date < 2000;
 FROM companies
 JOIN Employees ON Companies.name = Employees.Company
 WHERE employees.Role ='Graphic Designer';
+18.SELECT name
+from students
+WHERE Points = (SELECT max(Points) from students)
+19.select avg(points)
+from students
+20.select count(*)
+from students
+where Points = 500;
+21.select name 
+from students
+where name like '%s%'
+22.select * 
+from students
+ORDER by points DESC;
